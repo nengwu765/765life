@@ -3,7 +3,7 @@
 .logo a{
 	font-family: 'LobsterTwo-Regular';
 	font-size: 30px;
-	color: #F5AB95;
+	color: #ffa500;
 }
 .abt-bottom .small{
 	font-size: 13px;
@@ -273,7 +273,7 @@ button#showLeftPush {
 	font-size: 4em;
 	margin: 0;
 	/* color: #4e9c41; */
-	color: #7be745;
+	color: #ffa500;
 	margin-top: 100px;
 }
 .banner-bottom h2 {
@@ -281,7 +281,7 @@ button#showLeftPush {
 	font-size: 20px;
 	font-weight: 700;
 	/* color: #4e9c41; */
-	color: #7be745;
+	color: #ffa500;
 	margin: 1% 0 7% 50;
 	margin-bottom: 50px !important;
 	text-transform: uppercase;
@@ -289,19 +289,22 @@ button#showLeftPush {
 .banner-bottom p {
 	font-size: 22px;
 	font-weight: 700;
-	color: #cecb52;
+	color: #ffa500;
 	/* color: #E76A45; */
 	/* color: #4e9c41; */
 	margin: 10% 0 7% 0;
-	margin-left: 55% !important;
+	margin-left: 50% !important;
 	text-transform: uppercase;
 }
 
 .banner{
+	/* background:url(../images/banner-1.jpg) no-repeat; */
+	min-height:800px;
+	background-size:cover;
 	background:url(../images/765-img/image1.png) no-repeat;
-	min-height:350px !important;
-	background-size: 100% 100% !important;
-	background-position: 0 !important;
+	/* min-height:350px !important; */
+	/* background-size: 100% 100% !important; */
+	background-position: center !important;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -333,8 +336,8 @@ button#showLeftPush {
 .w-btn a {
 	font-size: 15px;
 	padding: 7px 15px;
-	border: 2px solid #F5AB95;
-	color: #F5AB95;
+	border: 2px solid  #ffa500;
+	color: #ffa500;
 	border-radius: 0.3em;
 	-webkit-border-radius: 0.3em;
 	-moz-border-radius: 0.3em;
